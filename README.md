@@ -1,2 +1,2 @@
 # DataAnalysis
-Analyzing data using matplotlib  and seaborn 
+Analyzing data and cleaning the data
