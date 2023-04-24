@@ -1,55 +1,26 @@
-<h1>Diwali Sales Analysis</h1>
-<p>This Python project analyzes the Diwali Sales Data to gain insights into customers' buying behavior during the festive season.</p>
+#Diwali Sales Analysis
+This is a Python project that analyzes Diwali sales data. The project involves importing necessary libraries and analyzing the database for null values and data types in different columns. 
+Unnecessary columns are dropped, null values are removed, and the data type of columns is changed.
 
-<h2>Requirements</h2>
-<p>The project requires the following Python libraries:</p>
-<ul>
-  <li>numpy</li>
-  <li>seaborn</li>
-  <li>matplotlib</li>
-  <li>pandas</li>
-</ul>
+#Explanatory Data Analysis
+##Gender
+The project analyzes the number of buyers by gender and purchasing power.
+There are more female buyers than male buyers, and they have a larger purchasing power compared to men.
 
-<h2>Usage</h2>
-<p>Clone the repository:</p>
-<pre><code>git clone https://github.com/&lt;username&gt;/Python_Diwali_Sales_Analysis.git</code></pre>
+##Age
+The project also analyzes the total amount of sales by age group.
+The graph shows that women between the ages of 26 and 35 have the highest purchasing power.
 
-<p>Open the project in a Python IDE or run it in the command line.</p>
+##States
+The project analyzes the total number of orders and sales from the top 10 states.
+The states with the highest sales are Uttar Pradesh, Maharashtra, and Karnataka.
 
-<p>Run the Diwali Sales Data.csv file to load the dataset.</p>
+##Marital Status
+The project analyzes the purchasing power of married women in different occupations. 
+Women who are married and work in the IT, Healthcare, and Aviation industries have the highest purchasing power.
 
-<p>Run the project to analyze the data.</p>
+##Product Category
+The project analyzes the top 10 most sold products and the top 10 product categories. The most sold products are in the Food, Clothing, and Electronics categories.
 
-<h2>Analysis</h2>
-<p>The project performs the following analyses:</p>
-<ul>
-  <li>Analyses the database for null values, data types in different columns</li>
-  <li>Drops unnecessary or blank columns</li>
-  <li>Checks null values in all columns</li>
-  <li>Drops null values</li>
-  <li>Changes data type of columns</li>
-  <li>Analyzes values using describe method</li>
-  <li>Explanatory Data Analysis</li>
-</ul>
-
-<h3>Explanatory Data Analysis</h3>
-<h4>Gender</h4>
-<p>A countplot and barplot are used to determine the number of male and female customers, as well as their purchasing power.</p>
-
-<h4>Age</h4>
-<p>A countplot is used to analyze the age distribution of customers. A barplot is used to determine the total amount spent by each age group.</p>
-
-<h4>State</h4>
-<p>A barplot is used to determine the total amount spent and the total number of orders from the top 10 states.</p>
-
-<h4>Marital Status</h4>
-<p>A countplot and barplot are used to analyze the marital status of customers, as well as their purchasing power based on gender.</p>
-
-<h4>Occupation</h4>
-<p>A countplot and barplot are used to analyze the occupation of customers and the total amount spent by each occupation.</p>
-
-<h4>Product Category</h4>
-<p>A countplot and barplot are used to analyze the product categories and the top 10 most sold products.</p>
-
-<h2>Conclusion</h2>
-<p>Women who are between the ages of 26 and 35, are married, and work in the IT, Healthcare, and Aviation industries in the states of Uttar Pradesh, Maharashtra, and Karnataka, are inclined to purchase items from the Food, Clothing, and Electronics categories.</p>
+##Conclusion
+Women who are between the ages of 26 and 35, are married, and work in the IT, Healthcare, and Aviation industries in the states of Uttar Pradesh, Maharashtra, and Karnataka, are inclined to purchase items from the Food, Clothing, and Electronics categories.
