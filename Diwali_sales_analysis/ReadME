@@ -1,52 +1,55 @@
-Diwali Sales Analysis
-This Python project analyzes the Diwali Sales Data to gain insights into customers' buying behavior during the festive season.
+<h1>Diwali Sales Analysis</h1>
+<p>This Python project analyzes the Diwali Sales Data to gain insights into customers' buying behavior during the festive season.</p>
 
-Requirements
-The project requires the following Python libraries:
+<h2>Requirements</h2>
+<p>The project requires the following Python libraries:</p>
+<ul>
+  <li>numpy</li>
+  <li>seaborn</li>
+  <li>matplotlib</li>
+  <li>pandas</li>
+</ul>
 
-numpy
-seaborn
-matplotlib
-pandas
-Usage
-Clone the repository:
+<h2>Usage</h2>
+<p>Clone the repository:</p>
+<pre><code>git clone https://github.com/&lt;username&gt;/Python_Diwali_Sales_Analysis.git</code></pre>
 
-git clone https://github.com/shubhammathur196/DataAnalysis/Diwali_sales_analysis.git
+<p>Open the project in a Python IDE or run it in the command line.</p>
 
-Open the project in a Python IDE or run it in the command line.
+<p>Run the Diwali Sales Data.csv file to load the dataset.</p>
 
-Run the Diwali Sales Data.csv file to load the dataset.
+<p>Run the project to analyze the data.</p>
 
-Run the project to analyze the data.
+<h2>Analysis</h2>
+<p>The project performs the following analyses:</p>
+<ul>
+  <li>Analyses the database for null values, data types in different columns</li>
+  <li>Drops unnecessary or blank columns</li>
+  <li>Checks null values in all columns</li>
+  <li>Drops null values</li>
+  <li>Changes data type of columns</li>
+  <li>Analyzes values using describe method</li>
+  <li>Explanatory Data Analysis</li>
+</ul>
 
-Analysis
-The project performs the following analyses:
+<h3>Explanatory Data Analysis</h3>
+<h4>Gender</h4>
+<p>A countplot and barplot are used to determine the number of male and female customers, as well as their purchasing power.</p>
 
-Analyses the database for null values, data types in different columns
-Drops unnecessary or blank columns
-Checks null values in all columns
-Drops null values
-Changes data type of columns
-Analyzes values using describe method
-Explanatory Data Analysis
-Explanatory Data Analysis
-Gender
-A countplot and barplot are used to determine the number of male and female customers, as well as their purchasing power.
+<h4>Age</h4>
+<p>A countplot is used to analyze the age distribution of customers. A barplot is used to determine the total amount spent by each age group.</p>
 
-Age
-A countplot is used to analyze the age distribution of customers. A barplot is used to determine the total amount spent by each age group.
+<h4>State</h4>
+<p>A barplot is used to determine the total amount spent and the total number of orders from the top 10 states.</p>
 
-State
-A barplot is used to determine the total amount spent and the total number of orders from the top 10 states.
+<h4>Marital Status</h4>
+<p>A countplot and barplot are used to analyze the marital status of customers, as well as their purchasing power based on gender.</p>
 
-Marital Status
-A countplot and barplot are used to analyze the marital status of customers, as well as their purchasing power based on gender.
+<h4>Occupation</h4>
+<p>A countplot and barplot are used to analyze the occupation of customers and the total amount spent by each occupation.</p>
 
-Occupation
-A countplot and barplot are used to analyze the occupation of customers and the total amount spent by each occupation.
+<h4>Product Category</h4>
+<p>A countplot and barplot are used to analyze the product categories and the top 10 most sold products.</p>
 
-Product Category
-A countplot and barplot are used to analyze the product categories and the top 10 most sold products.
-
-Conclusion
-Women who are between the ages of 26 and 35, are married, and work in the IT, Healthcare, and Aviation industries in the states of Uttar Pradesh, Maharashtra, and Karnataka, are inclined to purchase items from the Food, Clothing, and Electronics categories.
+<h2>Conclusion</h2>
+<p>Women who are between the ages of 26 and 35, are married, and work in the IT, Healthcare, and Aviation industries in the states of Uttar Pradesh, Maharashtra, and Karnataka, are inclined to purchase items from the Food, Clothing, and Electronics categories.</p>
