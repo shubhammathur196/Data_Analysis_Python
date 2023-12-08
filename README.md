@@ -31,4 +31,9 @@ The initial step was to clean the data. The project checked for null values and 
 ### Relationship Analysis
 After cleaning the data, the project analyzed the relationship between various features such as math score, reading score, gender, and lunch. Seaborn was used to plot a heat map, a pair plot, and scatter plots to visualize the relationships between the features. The project also generated a histogram and a box plot to visualize the distribution of scores.
 
-Overall, both projects provide a detailed analysis of data sets using Python, providing insights and helping identify the factors affecting the respective areas.
+### ESG Rating Analysis Project 
+This  data analysis project focuses on Environmental, Social, and Governance (ESG) ratings from two distinct websites. Leveraging Python, Pandas, and Matplotlib, the project explores the distribution, comparison, and potential outliers in the ESG ratings of various companies. The analysis covers data import, handling missing values, and employs visualizations like histograms and boxplots. Future steps include incorporating additional data sources, exploring machine learning predictions, and investigating stakeholder engagement.
+
+
+
+Overall, all projects provide a detailed analysis of data sets using Python, providing insights and helping identify the factors affecting the respective areas.
